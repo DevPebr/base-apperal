@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+<main class="container">
+
+  <header>
+    <img src="./images/logo.svg" alt="logo">
+  </header>
+
+  <article class="content-section">
+
+    <hgroup>
+
+      <h1>W e ' r e</h1>
+      <h2>c o m i n g s o o n</h2>
+
+    </hgroup>
+
+
+    <section class="sign-up">
+      <p>Hello fellow shoppers! We're currently building our new fashion store. 
+        Add your email below to stay up-to-date with announcements and our launch deals.</p>
+
+
+        <form action="#" id="form" class="form">
+
+          <span>
+
+            <input type="email" name="email" id="email" placeholder="       Email Address">
+            <button type="submit" class="btn" id="btn-submit">
+              <img src="./images/icon-arrow.svg" alt="arrow-icon">
+            </button>
+            
+          </span>
+
+          <span class="error">
+            <img src="./images/icon-error.svg" alt="error-icon" class="error-icon hidden">
+          </span>
+
+          <p class="transparent-p hidden">Please provide a valid email</p>
+        </form>
+
+    </section>
+
+  </article>
+
+  <figure>
+    <picture>
+      <source media="(max-width: 1200px)" srcset="./images/hero-mobile.jpg">
+      <img src="./images/hero-desktop.jpg" alt="hero" class="hero">
+    </picture>
+  </figure>
+
+</main>
+<script src="scripts/script.js"></script>
+</body>
+</html>
