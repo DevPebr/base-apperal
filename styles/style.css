@@ -33,6 +33,9 @@ main {
     grid-template-rows: 15vh 85vh;
     grid-template-areas: 'header figure' 'conteudo figure';
     overflow-y: hidden;
+    background-image: url('../images/bg-pattern-desktop.svg');
+    background-repeat: no-repeat;
+    
 }
 
 header {
@@ -48,6 +51,7 @@ header {
    padding: 70px 150px;
    grid-area: conteudo;
    width: 100%;
+  
 }
 
 hgroup h1, hgroup h2 {
@@ -151,6 +155,7 @@ figure picture img {
         grid-template-columns: 1fr;
         grid-template-areas: 'header' 'figure' 'conteudo';
         overflow: auto;
+        grid-template-rows: auto;
     }
 
     header {
@@ -285,7 +290,6 @@ figure picture img {
         flex-direction: column;
         padding: 0;
         height: 380px;
-        margin-bottom: 50px;
     }
 
 
