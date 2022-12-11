@@ -5,8 +5,6 @@
     --desaturated-red: hsl(0, 36%, 70%);
     --soft-red: hsl(0, 93%, 68%);
     --dark-grayish-red: hsl(0, 6%, 24%);
-    /* --white-gradient:hsl(0, 0%, 100%), hsl(0, 100%, 98%);
-    --red-gradient:hsl(0, 80%, 86%), hsl(0, 74%, 74%); */
     --gradient: hsl(0, 80%, 86%), hsl(0, 74%, 74%);
 }
 
@@ -93,6 +91,7 @@ hgroup h2 {
     border: 1px solid var(--desaturated-red);
     position: fixed;
     outline: 0;
+    font-size: 0.8rem;
 }
 
 .sign-up form span input::placeholder {
